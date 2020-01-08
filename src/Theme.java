@@ -3,7 +3,7 @@ import java.util.List;
 public class Theme {
 
 	private String themeName;
-	private List<Activity> activities;
+	private List<Subtheme> subthemes;
 
 	public String getThemeName() {
 		return themeName;
@@ -13,12 +13,12 @@ public class Theme {
 		this.themeName = themeName;
 	}
 
-	public List<Activity> getActivities() {
-		return activities;
+	public List<Subtheme> getSubthemes() {
+		return subthemes;
 	}
 
-	public void setActivities(List<Activity> activities) {
-		this.activities = activities;
+	public void setSubthemes(List<Subtheme> subthemes) {
+		this.subthemes = subthemes;
 	}
 
 }
