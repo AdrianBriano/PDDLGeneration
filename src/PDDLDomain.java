@@ -1,18 +1,11 @@
+import java.util.List;
 
 public class PDDLDomain {
 
-	String[] Subjects;
-	String[] Themes;
-	String[] Activities;
-	String[] Resources;
+	private List<Subject> subjects;
 	
-	
-
-	public PDDLDomain(String[] subjects, String[] themes, String[] activities, String[] resources) {
-		Subjects = subjects;
-		Themes = themes;
-		Activities = activities;
-		Resources = resources;
+	public PDDLDomain(List<Subject> subjects) {
+		this.subjects = subjects;
 	}
 
 	public byte[] getPDDLDomain() {
